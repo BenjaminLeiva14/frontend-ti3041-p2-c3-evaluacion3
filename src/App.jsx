@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { ArrowRight, CalendarDays, Check, Clock3, LogOut, Plus, RotateCcw, ShieldCheck, UserRound, X } from 'lucide-react'
 import { api, authStore, login } from './api'
