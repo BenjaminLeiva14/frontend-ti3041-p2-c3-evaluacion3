@@ -1,4 +1,4 @@
-const API_URL = (import.meta.env.VITE_API_URL || 'https://agenda-visitas-evaluacion2.vercel.app/api').replace(/\/+$/, '')
+const API_URL = (import.meta.env.VITE_API_URL || 'https://ti3041-p2-c3-2026p-evaluacion3.vercel.app/api').replace(/\/+$/, '')
 const ACCESS_KEY = 'visita_access_token'
 const REFRESH_KEY = 'visita_refresh_token'
 
